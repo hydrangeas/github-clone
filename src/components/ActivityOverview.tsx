@@ -37,7 +37,7 @@ export default function ActivityOverview() {
             <div className="absolute w-3 h-3 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 rounded-full z-10"></div>
             
             {/* Commits line (97%) */}
-            <div className="absolute left-1/2 w-[70%] h-[1px] bg-green-500 transform -translate-x-0"></div>
+            <div className="absolute left-1/2 w-[70%] h-[1px] bg-green-500 transform -translate-x-1/2"></div>
             
             {/* Commits label */}
             <div className="absolute top-4 left-4 text-xs text-gray-500">
