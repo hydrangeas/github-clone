@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full md:w-3/4">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
-              <h1 className="text-xl font-medium mb-2 sm:mb-0">268 contributions in 2024</h1>
+              <h1 className="text-xl font-medium mb-2 sm:mb-0">268 contributions in {currentYear}</h1>
               
               <button className="flex items-center px-3 py-1 text-sm border border-gray-300 dark:border-gray-700 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800">
                 Contribution settings
