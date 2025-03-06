@@ -58,8 +58,8 @@ export default function ContributionGraph() {
   const oneYearAgo = subDays(today, 365);
   const monthLabels = getMonthLabels();
   
-  // Get the start of the week (Sunday) for the one year ago date
-  const startDate = startOfWeek(oneYearAgo);
+  // Get the start of the week (Monday) for the one year ago date
+  const startDate = startOfWeek(oneYearAgo, { weekStartsOn: 1 });
   
   // Create a 7x53 grid (7 days per week, ~53 weeks per year)
   const weeks = [];
